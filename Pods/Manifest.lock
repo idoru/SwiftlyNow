@@ -1,0 +1,39 @@
+PODS:
+  - PivotalCoreKit/Foundation/Core (0.1.0)
+  - PivotalCoreKit/Foundation/SpecHelper (0.1.0):
+    - PivotalCoreKit/Foundation/SpecHelper/Extensions
+    - PivotalCoreKit/Foundation/SpecHelper/Fakes
+    - PivotalCoreKit/Foundation/SpecHelper/Fixtures
+    - PivotalCoreKit/Foundation/SpecHelper/Helpers
+  - PivotalCoreKit/Foundation/SpecHelper/Extensions (0.1.0)
+  - PivotalCoreKit/Foundation/SpecHelper/Fakes (0.1.0):
+    - PivotalCoreKit/Foundation/SpecHelper/Fixtures
+  - PivotalCoreKit/Foundation/SpecHelper/Fixtures (0.1.0)
+  - PivotalCoreKit/Foundation/SpecHelper/Helpers (0.1.0)
+  - PivotalCoreKit/UIKit/Core (0.1.0):
+    - PivotalCoreKit/UIKit/Core/Core-arc
+  - PivotalCoreKit/UIKit/Core/Core-arc (0.1.0)
+  - PivotalCoreKit/UIKit/SpecHelper (0.1.0):
+    - PivotalCoreKit/UIKit/SpecHelper/Extensions
+    - PivotalCoreKit/UIKit/SpecHelper/Helpers
+    - PivotalCoreKit/UIKit/SpecHelper/Matchers
+    - PivotalCoreKit/UIKit/SpecHelper/Stubs
+  - PivotalCoreKit/UIKit/SpecHelper/Extensions (0.1.0)
+  - PivotalCoreKit/UIKit/SpecHelper/Helpers (0.1.0)
+  - PivotalCoreKit/UIKit/SpecHelper/Matchers (0.1.0)
+  - PivotalCoreKit/UIKit/SpecHelper/Stubs (0.1.0)
+
+DEPENDENCIES:
+  - PivotalCoreKit/Foundation/Core (from `https://github.com/pivotal/PivotalCoreKit.git`)
+  - PivotalCoreKit/Foundation/SpecHelper (from `https://github.com/pivotal/PivotalCoreKit.git`)
+  - PivotalCoreKit/UIKit/Core (from `https://github.com/pivotal/PivotalCoreKit.git`)
+  - PivotalCoreKit/UIKit/SpecHelper (from `https://github.com/pivotal/PivotalCoreKit.git`)
+
+EXTERNAL SOURCES:
+  PivotalCoreKit:
+    :git: https://github.com/pivotal/PivotalCoreKit.git
+
+SPEC CHECKSUMS:
+  PivotalCoreKit: f90b8dd4e6475c7be700a368790a4c4252dd9e2a
+
+COCOAPODS: 0.33.1

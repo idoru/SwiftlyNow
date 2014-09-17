@@ -1,0 +1,1 @@
+../../PivotalCoreKit/UIKit/SpecHelper/Helpers/PCKPrototypeCellInstantiatingDataSource.h

@@ -1,0 +1,1 @@
+../../PivotalCoreKit/UIKit/SpecHelper/Extensions/UISwitch+Spec.h
