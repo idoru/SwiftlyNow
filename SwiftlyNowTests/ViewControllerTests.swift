@@ -6,10 +6,13 @@ class ViewControllerTests: XCTestCase {
     override func setUp() {
         super.setUp()
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as UIViewController
-        UIApplication.sharedApplication().keyWindow.rootViewController = controller as UIViewController
+        UIApplication.sharedApplication().keyWindow.rootViewController = controller
+        
+        NSRunLoop.mainRunLoop().runUntilDate(NSDate())
     }
     
     override func tearDown() {
+        NSURLConnection.resetAll();
         super.tearDown()
     }
     
@@ -19,6 +22,6 @@ class ViewControllerTests: XCTestCase {
     }
     
     func testHandlesNetworkError() {
-        
+        //NSURLConnection.connections().last?.failWithError(NSError(domain: "Holy kittens batman!", code: 42, userInfo: nil))
     }
 }
